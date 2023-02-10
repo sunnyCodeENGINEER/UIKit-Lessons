@@ -25,10 +25,10 @@ class ThirdScreen: UIViewController {
         view.addSubview(homeButton)
         
         homeButton.configuration = .filled()
-        homeButton.configuration?.title = "Go To Home"
+        homeButton.configuration?.title = "Tap Me"
         homeButton.configuration?.baseBackgroundColor = .green
         
-        homeButton.addTarget(self, action: #selector(goHome), for: .touchUpInside)
+        homeButton.addTarget(self, action: #selector(goToNext), for: .touchUpInside)
         
         homeButton.translatesAutoresizingMaskIntoConstraints = false
         
@@ -41,8 +41,9 @@ class ThirdScreen: UIViewController {
         
     }
     
-    @objc func goHome() {
-        navigationController?.popToRootViewController(animated: true)
+    @objc func goToNext() {
+        let nextScreen = FourthScreen()
+        navigationController?.pushViewController(nextScreen, animated: true)
     }
 
     /*

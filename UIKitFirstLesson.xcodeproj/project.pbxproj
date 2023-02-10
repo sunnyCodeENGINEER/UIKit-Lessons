@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		25A6FE6329967056008E8C79 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6FE6229967056008E8C79 /* SecondScreen.swift */; };
 		25A6FE6529967921008E8C79 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6FE6429967921008E8C79 /* ThirdScreen.swift */; };
+		25A6FEB329969F89008E8C79 /* FourthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6FEB229969F89008E8C79 /* FourthScreen.swift */; };
 		25FCB7B129965CB800F26EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FCB7B029965CB800F26EC2 /* AppDelegate.swift */; };
 		25FCB7B329965CB800F26EC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FCB7B229965CB800F26EC2 /* SceneDelegate.swift */; };
 		25FCB7B529965CB800F26EC2 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FCB7B429965CB800F26EC2 /* FirstScreen.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		25A6FE6229967056008E8C79 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		25A6FE6429967921008E8C79 /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		25A6FEB229969F89008E8C79 /* FourthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreen.swift; sourceTree = "<group>"; };
 		25FCB7AD29965CB800F26EC2 /* UIKitFirstLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitFirstLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FCB7B029965CB800F26EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25FCB7B229965CB800F26EC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				25FCB7B429965CB800F26EC2 /* FirstScreen.swift */,
 				25A6FE6229967056008E8C79 /* SecondScreen.swift */,
 				25A6FE6429967921008E8C79 /* ThirdScreen.swift */,
+				25A6FEB229969F89008E8C79 /* FourthScreen.swift */,
 				25FCB7B929965CBB00F26EC2 /* Assets.xcassets */,
 				25FCB7BB29965CBB00F26EC2 /* LaunchScreen.storyboard */,
 				25FCB7BE29965CBB00F26EC2 /* Info.plist */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A6FE6329967056008E8C79 /* SecondScreen.swift in Sources */,
+				25A6FEB329969F89008E8C79 /* FourthScreen.swift in Sources */,
 				25FCB7B529965CB800F26EC2 /* FirstScreen.swift in Sources */,
 				25A6FE6529967921008E8C79 /* ThirdScreen.swift in Sources */,
 				25FCB7B129965CB800F26EC2 /* AppDelegate.swift in Sources */,
