@@ -10,10 +10,12 @@ import UIKit
 class FirstScreen: UIViewController {
     
     let nextButton = UIButton()
+    let button2 = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupButton()
+        setupButton2()
         view.backgroundColor = .systemBackground
         title = "First Screen"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -40,9 +42,33 @@ class FirstScreen: UIViewController {
         
     }
     
+    func setupButton2() {
+        view.addSubview(button2)
+        
+        button2.configuration = .tinted()
+        button2.configuration?.title = "Tap Me"
+        button2.configuration?.baseBackgroundColor = .blue
+        
+        button2.addTarget(self, action: #selector(tappedMe), for: .touchUpInside)
+        
+        button2.translatesAutoresizingMaskIntoConstraints = true
+        
+        NSLayoutConstraint.activate([
+            button2.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            button2.centerYAnchor.constraint(equalTo: nextButton.centerYAnchor),
+            button2.widthAnchor.constraint(equalToConstant: 200),
+            button2.heightAnchor.constraint(equalToConstant: 50)
+        ])
+        
+    }
+    
     @objc func goToNextScreen() {
         let nextScreen = SecondScreen()
         navigationController?.pushViewController(nextScreen, animated: true)
+    }
+    
+    @objc func tappedMe() {
+        
     }
 }
 
